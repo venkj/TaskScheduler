@@ -1,7 +1,7 @@
 # Task Scheduler
 
 ## Overview
-This project is a Task Scheduler that supports network and system probes. It collects various metrics and calculates aggregate metrics like average, minimum, and maximum. The scheduler supports customizable execution frequencies for each task and handles failures gracefully.
+This project is a Task Scheduler that supports network and system probes. It collects various metrics and calculates aggregate metrics like average, minimum, maximum and count. The scheduler supports customizable execution frequencies for each task and handles failures gracefully.
 
 ## Features
 - Network Probes:
