@@ -7,11 +7,10 @@ This project is a Task Scheduler that supports network and system probes. It col
 - Network Probes:
   - DNS Resolve Time
   - TCP Connect Time
-  - ICMP Ping Time
 - System Probes:
-  - Total Swapfile Size and Current Usage
+  - Total Swapfile Size
   - Current Physical Memory Used by the Process
-  - Total Packets Sent and Received on a Specific Network Interface
+  - Total Packets Sent and Received on Network Interface
 - Aggregates metrics (average, minimum, maximum)
 - Handles task failures gracefully
 
