@@ -65,39 +65,9 @@ TaskScheduler/
     ./build.sh
     ```
 
-### Manual Build and Test
-
-1. **Clone the repository**:
+3. Run the Application:
     ```sh
-    git clone https://github.com/venkj/TaskScheduler.git
-    cd TaskScheduler
-    ```
-
-2. **Initialize Google Test submodule**:
-    ```sh
-    git submodule update --init --recursive
-    ```
-
-3. **Create a build directory**:
-    ```sh
-    mkdir build
-    cd build
-    ```
-
-4. **Run CMake**:
-    ```sh
-    CC=gcc-14 CXX=g++-14 cmake ..
-    ```
-
-5. **Build the project**:
-    ```sh
-    make
-    ```
-
-6. **Run the tests**:
-    ```sh
-    cd tests
-    ctest --output-on-failure
+    ./build/task_scheduler
     ```
 
 ## Environment
